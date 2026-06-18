@@ -6,11 +6,6 @@ const fs = require('fs');
 const PORTAL_URL = 'https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22';
 const STATUS_VIEW_URL = 'https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y';
 
-const CREDENTIALS = {
-  username: process.env.VI_USER_ID,
-  password: process.env.VI_PASSWORD,
-};
-
 const DELAY_BETWEEN_NUMBERS = 2000; // ms
 
 /**
@@ -76,6 +71,8 @@ async function captureProcessedCaptcha(page, captchaImgEl) {
       if (!img.complete || img.naturalWidth === 0) {
         img.onload = process;
         img.onerror = () => reject(new Error('Image failed to load'));
+        // Safety timeout to prevent hanging forever
+        setTimeout(() => reject(new Error('Image load timed out after 10s')), 10000);
       } else {
         process();
       }
@@ -95,20 +92,25 @@ async function captureProcessedCaptcha(page, captchaImgEl) {
 async function runAutomation(phoneNumbers, sendEvent) {
   console.log(`[Automation] Starting bulk blocking for ${phoneNumbers.length} numbers.`);
   
-  if (!CREDENTIALS.username || !CREDENTIALS.password) {
-    throw new Error('Missing credentials! Please set VI_USER_ID and VI_PASSWORD in your .env file or environment variables.');
+  // Reload environment variables dynamically so user doesn't have to restart server
+  require('dotenv').config();
+  const username = process.env.VI_USER_ID;
+  const password = process.env.VI_PASSWORD;
+  
+  if (!username || !password || username.includes('your_username') || password.includes('your_password')) {
+    throw new Error('Missing credentials! Please open the .env file and set your real VI_USER_ID and VI_PASSWORD, then click Start again.');
   }
 
-  // Launch browser for cloud
+  // Launch browser (visible to user)
   const browser = await chromium.launch({
-    headless: true,
+    headless: false,
+    channel: 'msedge',
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
   });
 
   const context = await browser.newContext({
     ignoreHTTPSErrors: true,
-    viewport: { width: 1366, height: 768 },
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+    viewport: { width: 1366, height: 768 }
   });
 
   const page = await context.newPage();
@@ -150,74 +152,52 @@ async function runAutomation(phoneNumbers, sendEvent) {
       });
 
       // Fill credentials
-      await page.fill('input[name="username"]', CREDENTIALS.username);
-      await page.fill('input[name="password"]', CREDENTIALS.password);
+      await page.fill('input[name="username"]', username);
+      await page.fill('input[name="password"]', password);
       await page.waitForTimeout(500);
 
-      // Generate CAPTCHA so it is ready for the user to type
-      const captchaField = await page.$('#captcha-field');
-      if (!captchaField) {
-        console.log('[Login] Generating login captcha...');
-        await page.click('text="Generate Captcha"').catch(() => { });
-        await page.waitForSelector('#captcha-field', { timeout: 10000 }).catch(() => { });
-      }
-
-      console.log('\n[Login] Requesting manual CAPTCHA solving via UI...');
-
-      let captchaImgEl = await page.$('#captcha-image') || await page.$('img[src*="captcha"]') || await page.$('img[id*="captcha"]') || await page.$('form img');
-      if (captchaImgEl) {
-        const captchaBuffer = await captchaImgEl.screenshot();
-        const base64Image = captchaBuffer.toString('base64');
-        sendEvent({
-          type: 'login_captcha_required',
-          imageBase64: base64Image,
-          message: 'Please enter the login CAPTCHA in the UI.'
-        });
-      } else {
-        sendEvent({
-          type: 'login_captcha_required',
-          imageBase64: null,
-          message: 'Please enter the login CAPTCHA in the UI (Image not detected automatically).'
-        });
-      }
-
-      console.log('[Login] Waiting for frontend CAPTCHA submission...');
-      const userCaptchaSolution = await new Promise((resolve) => {
-        global.captchaResolve = resolve;
-
-        // Timeout after 3 minutes
-        setTimeout(() => {
-          if (global.captchaResolve === resolve) {
-            global.captchaResolve = null;
-            resolve(null);
-          }
-        }, 180000);
+      // Wait for the user to manually solve the CAPTCHA and click Login
+      console.log('\n[Login] Requesting manual CAPTCHA solving via Browser...');
+      sendEvent({
+        type: 'progress',
+        number: '',
+        status: 'logging_in',
+        index: 0,
+        total: phoneNumbers.length,
+        message: 'Please type the CAPTCHA in the opened Microsoft Edge window and click Login.'
       });
 
-      if (!userCaptchaSolution) {
-        throw new Error('Manual login timed out. No CAPTCHA submitted within 3 minutes.');
+      console.log('[Login] Waiting up to 3 minutes for user to login...');
+      
+      // Wait for either the dashboard link to appear OR the login page to show an error and stay on username
+      // We loop slightly so if the page reloads with a wrong captcha, we don't instantly fail, we just wait again.
+      let isLoggedIn = false;
+      let timeWaited = 0;
+      
+      while (timeWaited < 180000) {
+        try {
+          const numberBlockLink = await page.$('text="Number block/unblock"');
+          const isStatusView = await page.$('select[name="numberStatus"]');
+          
+          if (numberBlockLink || isStatusView) {
+            isLoggedIn = true;
+            break;
+          }
+          
+          const errorMsg = await page.$('span.errormsg, div.error, .alert-danger');
+          if (errorMsg) {
+             const errText = await errorMsg.innerText();
+             console.log(`[Login Alert] Found error on page: ${errText}`);
+          }
+        } catch (e) {
+          // Ignore "Execution context was destroyed" errors during page navigation
+        }
+        
+        await page.waitForTimeout(2000);
+        timeWaited += 2000;
       }
 
-      console.log('[Login] Received CAPTCHA solution from UI. Submitting...');
-      await page.fill('#captcha-field', userCaptchaSolution);
-      await page.waitForTimeout(500);
-
-      // Click Login button
-      const loginBtn = await page.$('a:has-text("Login")') || await page.$('input[type="submit"]') || await page.$('button');
-      if (loginBtn) {
-        await Promise.all([
-          page.waitForNavigation({ waitUntil: 'load', timeout: 30000 }).catch(() => { }),
-          loginBtn.evaluate(b => b.click())
-        ]);
-      } else {
-        await page.keyboard.press('Enter');
-        await page.waitForNavigation({ waitUntil: 'load', timeout: 30000 }).catch(() => { });
-      }
-
-      // Re-verify login success
-      const numberBlockLink = await page.$('text="Number block/unblock"');
-      const isStatusView = await page.$('select[name="numberStatus"]');
-      if (!numberBlockLink && !isStatusView) {
+      if (!isLoggedIn) {
         throw new Error('Login failed. Please check credentials and CAPTCHA and try again.');
       }
 

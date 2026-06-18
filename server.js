@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
@@ -14,6 +15,14 @@ const upload = multer({ dest: 'uploads/' });
 const reportsDir = path.join(__dirname, 'reports');
 if (!fs.existsSync(reportsDir)) {
   fs.mkdirSync(reportsDir, { recursive: true });
+}
+
+// Ensure .env file exists for the client
+const envPath = path.join(__dirname, '.env');
+const envExamplePath = path.join(__dirname, '.env.example');
+if (!fs.existsSync(envPath) && fs.existsSync(envExamplePath)) {
+  fs.copyFileSync(envExamplePath, envPath);
+  console.log('[Setup] Generated .env file. Please fill in your VI_USER_ID and VI_PASSWORD in the .env file.');
 }
 
 app.use(express.static('public'));
