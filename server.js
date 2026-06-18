@@ -75,20 +75,22 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 
     res.json({ success: true, count: numbers.length, message: `Found ${numbers.length} numbers. Starting automation...` });
 
-    // Run automation in background (don't await — SSE handles updates)
-    runAutomation(numbers, sendEvent)
-      .then(results => {
-        const reportFilename = generateReport(results);
-        sendEvent({ 
-          type: 'done', 
-          results, 
-          reportUrl: `/download-report/${reportFilename}` 
+    // Delay automation slightly to give the frontend time to connect to /events SSE
+    setTimeout(() => {
+      runAutomation(numbers, sendEvent)
+        .then(results => {
+          const reportFilename = generateReport(results);
+          sendEvent({ 
+            type: 'done', 
+            results, 
+            reportUrl: `/download-report/${reportFilename}` 
+          });
+        })
+        .catch(err => {
+          console.error('[Automation Error]', err);
+          sendEvent({ type: 'error', message: err.message });
         });
-      })
-      .catch(err => {
-        console.error('[Automation Error]', err);
-        sendEvent({ type: 'error', message: err.message });
-      });
+    }, 2000);
 
     // Clean up uploaded file after reading
     fs.unlink(req.file.path, () => {});
