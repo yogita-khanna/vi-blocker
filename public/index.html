@@ -414,7 +414,14 @@
   </div>
 </div>
 
+<!-- Load environment variables injected by Vercel Build Phase -->
+<script src="/env.js"></script>
+
 <script>
+  // 🔗 CONFIGURATION: 
+  // Reads the Backend URL from the generated env.js (or defaults to empty string)
+  const BACKEND_URL = (window.ENV && window.ENV.BACKEND_URL) ? window.ENV.BACKEND_URL : '';
+
   let selectedFile = null;
   let totalNumbers = 0;
   let processed = 0;
@@ -463,7 +470,7 @@
 
     try {
       log('📤 Uploading Excel file to backend...');
-      const res = await fetch('/upload', { method: 'POST', body: formData });
+      const res = await fetch(`${BACKEND_URL}/upload`, { method: 'POST', body: formData });
       const data = await res.json();
 
       if (!data.success) {
@@ -477,7 +484,7 @@
       log('🚀 Launching Microsoft Edge browser...');
 
       // Connect SSE server updates
-      const evtSource = new EventSource('/events');
+      const evtSource = new EventSource(`${BACKEND_URL}/events`);
       
       evtSource.onmessage = (e) => {
         const msg = JSON.parse(e.data);
@@ -530,7 +537,7 @@
           if (msg.reportUrl) {
             downloadReportBtn.style.display = 'flex';
             downloadReportBtn.onclick = () => {
-              window.location.href = msg.reportUrl;
+              window.location.href = `${BACKEND_URL}${msg.reportUrl}`;
             };
             log('👉 Click the green "Download Excel Report" button above to fetch the results file.');
           }
@@ -557,7 +564,7 @@
     submitCaptchaBtn.textContent = 'Submitting...';
 
     try {
-      const res = await fetch('/solve-captcha', {
+      const res = await fetch(`${BACKEND_URL}/solve-captcha`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text })

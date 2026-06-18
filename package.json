@@ -4,7 +4,8 @@
   "description": "Bulk phone number blocking automation",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node build.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
