@@ -107,7 +107,8 @@ async function runAutomation(phoneNumbers, sendEvent) {
 
   const context = await browser.newContext({
     ignoreHTTPSErrors: true,
-    viewport: { width: 1280, height: 800 }
+    viewport: { width: 1366, height: 768 },
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
   });
 
   const page = await context.newPage();
@@ -130,7 +131,7 @@ async function runAutomation(phoneNumbers, sendEvent) {
       message: 'Opening cPOS portal...'
     });
 
-    await page.goto(PORTAL_URL, { waitUntil: 'load', timeout: 45000 });
+    await page.goto(PORTAL_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
     // Defensive wait: resolve navigation redirects and find either login or dashboard element
     console.log('[Browser] Waiting for page initialization...');
