@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vi-blocker-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    envVars:
+      - key: PORT
+        value: "3000"
+      - key: VI_USER_ID
+        sync: false
+      - key: VI_PASSWORD
+        sync: false

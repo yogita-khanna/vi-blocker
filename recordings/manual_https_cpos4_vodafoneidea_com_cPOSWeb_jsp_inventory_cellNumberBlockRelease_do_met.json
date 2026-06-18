@@ -1,0 +1,2895 @@
+{
+  "format": "schema_recorder_v1",
+  "purpose": "Manual interaction log for building assessor_executor JSON schemas",
+  "start_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+  "started_at": "2026-06-17T17:27:52.793883+00:00",
+  "finished_at": "2026-06-17T17:31:38.982082+00:00",
+  "how_to_use_with_llm": "Share this file or paste `summary_for_llm` plus selected `events` entries. Map css_guess values into schema `selectors`, and map suggested_action to pages[].steps (input, click, wait_for, extract, for_each, click_in_row).",
+  "events": [
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "seq": 1,
+      "ts": "2026-06-17T17:27:52.793883+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "de",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "de",
+      "seq": 2,
+      "ts": "2026-06-17T17:28:09.053177+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "de"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del",
+      "seq": 3,
+      "ts": "2026-06-17T17:28:09.871203+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del31",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del31",
+      "seq": 4,
+      "ts": "2026-06-17T17:28:10.661195+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del31"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del316",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del316",
+      "seq": 5,
+      "ts": "2026-06-17T17:28:13.379043+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del316"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del3164",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del3164",
+      "seq": 6,
+      "ts": "2026-06-17T17:28:13.808973+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del3164"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del316489",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del316489",
+      "seq": 7,
+      "ts": "2026-06-17T17:28:15.947286+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del316489"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del3164892",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del3164892",
+      "seq": 8,
+      "ts": "2026-06-17T17:28:16.732063+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del3164892"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del3164892x",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del3164892x",
+      "seq": 9,
+      "ts": "2026-06-17T17:28:17.182400+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del3164892x"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del3164892x1",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del3164892x1",
+      "seq": 10,
+      "ts": "2026-06-17T17:28:17.695474+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del3164892x1"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "username",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "del3164892x1",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"username\"]",
+        "playwright_hint": "input[name=\"username\"]",
+        "outer_html_truncated": "<input name=\"username\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" onkeypress=\"onlyCharactersNumbers(this);\" size=\"14\" maxlength=\"20\" autocomplete=\"OFF\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 220,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "del3164892x1",
+      "seq": 11,
+      "ts": "2026-06-17T17:28:18.660958+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "input[name=\"username\"]",
+        "sample_value": "del3164892x1"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "seq": 12,
+      "ts": "2026-06-17T17:28:18.886736+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "input[name=\"password\"]"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sa",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sa",
+      "seq": 13,
+      "ts": "2026-06-17T17:28:20.201908+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"password\"]",
+        "sample_value": "Sa"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sachet",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sachet",
+      "seq": 14,
+      "ts": "2026-06-17T17:28:21.534515+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"password\"]",
+        "sample_value": "Sachet"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sachet##",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sachet##",
+      "seq": 15,
+      "ts": "2026-06-17T17:28:22.601299+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"password\"]",
+        "sample_value": "Sachet##"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sachet##131313",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sachet##131313",
+      "seq": 16,
+      "ts": "2026-06-17T17:28:25.437796+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"password\"]",
+        "sample_value": "Sachet##131313"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sachet##131313",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "seq": 17,
+      "ts": "2026-06-17T17:28:27.737651+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "input[name=\"password\"]"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sachet##131313",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "seq": 18,
+      "ts": "2026-06-17T17:28:29.991739+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "input[name=\"password\"]"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sachet##131313",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "seq": 19,
+      "ts": "2026-06-17T17:28:30.796980+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "input[name=\"password\"]"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "password",
+        "className": "",
+        "type": "PASSWORD",
+        "role": null,
+        "href": null,
+        "value_preview": "Sachet##131313",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"password\"]",
+        "playwright_hint": "input[name=\"password\"]",
+        "outer_html_truncated": "<input type=\"PASSWORD\" name=\"password\" onselectstart=\"return false\" onpaste=\"return false;\" oncopy=\"return false\" oncut=\"return false\" ondrag=\"return false\" ondrop=\"return false\" size=\"14\" maxlength=\"20\" autocomplete=\"off\" onkeydown=\"disableEscape();\">",
+        "bbox": {
+          "x": 289,
+          "y": 243,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sachet##131313",
+      "seq": 20,
+      "ts": "2026-06-17T17:28:32.536318+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "input[name=\"password\"]",
+        "sample_value": "Sachet##131313"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "b",
+        "id": null,
+        "name": null,
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": null,
+        "text_preview": "Generate Captcha",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "playwright_hint": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "outer_html_truncated": "<b>Generate Captcha</b>",
+        "bbox": {
+          "x": 152,
+          "y": 270,
+          "w": 126,
+          "h": 17
+        }
+      },
+      "seq": 21,
+      "ts": "2026-06-17T17:28:32.765969+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "seq": 22,
+      "ts": "2026-06-17T17:28:41.219879+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "#captcha-field"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "S",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "S",
+      "seq": 23,
+      "ts": "2026-06-17T17:28:42.409014+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "S"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv",
+      "seq": 24,
+      "ts": "2026-06-17T17:28:43.374928+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Svr",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Svr",
+      "seq": 25,
+      "ts": "2026-06-17T17:28:43.999190+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Svr"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv",
+      "seq": 26,
+      "ts": "2026-06-17T17:28:45.010050+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv5",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv5",
+      "seq": 27,
+      "ts": "2026-06-17T17:28:45.664445+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv5"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv5j",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv5j",
+      "seq": 28,
+      "ts": "2026-06-17T17:28:47.392345+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv5j"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv5jn",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv5jn",
+      "seq": 29,
+      "ts": "2026-06-17T17:28:48.456265+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv5jn"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv5jnN",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv5jnN",
+      "seq": 30,
+      "ts": "2026-06-17T17:28:49.303703+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv5jnN"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv5jnNZ",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv5jnNZ",
+      "seq": 31,
+      "ts": "2026-06-17T17:28:50.919902+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv5jnNZ"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv5jnNZL",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv5jnNZL",
+      "seq": 32,
+      "ts": "2026-06-17T17:28:51.992126+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv5jnNZL"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captcha-field",
+        "name": "captcha-field",
+        "className": "captcha-field",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "Sv5jnNZL",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": "Enter captcha",
+        "css_guess": "#captcha-field",
+        "playwright_hint": "#captcha-field",
+        "outer_html_truncated": "<input id=\"captcha-field\" class=\"captcha-field\" name=\"captcha-field\" type=\"text\" size=\"14\" placeholder=\"Enter captcha\" autocomplete=\"off\">",
+        "bbox": {
+          "x": 294,
+          "y": 266,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "Sv5jnNZL",
+      "seq": 33,
+      "ts": "2026-06-17T17:28:53.046930+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "#captcha-field",
+        "sample_value": "Sv5jnNZL"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "b",
+        "id": null,
+        "name": null,
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": null,
+        "text_preview": "Validate Captcha",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "playwright_hint": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "outer_html_truncated": "<b>Validate Captcha</b>",
+        "bbox": {
+          "x": 352,
+          "y": 342,
+          "w": 117,
+          "h": 17
+        }
+      },
+      "seq": 34,
+      "ts": "2026-06-17T17:28:53.259763+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "b",
+        "id": null,
+        "name": null,
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": null,
+        "text_preview": "Enter >",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "playwright_hint": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "outer_html_truncated": "<b>Enter &gt;</b>",
+        "bbox": {
+          "x": 190,
+          "y": 302,
+          "w": 50,
+          "h": 17
+        }
+      },
+      "seq": 35,
+      "ts": "2026-06-17T17:28:59.736419+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/common/main.jsp",
+      "seq": 36,
+      "ts": "2026-06-17T17:29:00.306841+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/common/main.jsp"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/common/main.jsp",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "a",
+        "id": null,
+        "name": null,
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": "/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+        "value_preview": null,
+        "text_preview": "Number block/unblock",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > tr:nth-of-type(1) > td:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(11) > ul:nth-of-type(1) > li:nth-of-type(3) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "playwright_hint": "body > tr:nth-of-type(1) > td:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(11) > ul:nth-of-type(1) > li:nth-of-type(3) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "outer_html_truncated": "<a href=\"/cPOSWeb/switchMod.do?prefix=/jsp/inventory&amp;page=/cellNumberBlockRelease.do?method=getView&amp;fromMenu=Y\">Number block/unblock</a>",
+        "bbox": {
+          "x": 420,
+          "y": 130,
+          "w": 210,
+          "h": 25
+        }
+      },
+      "seq": 37,
+      "ts": "2026-06-17T17:29:09.510200+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click_in_row or click (detail link)",
+        "note": "If this opens a detail page, prefer navigating to href or click_in_row with result_link.",
+        "css_for_schema_selectors": "body > tr:nth-of-type(1) > td:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(11) > ul:nth-of-type(1) > li:nth-of-type(3) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "seq": 38,
+      "ts": "2026-06-17T17:29:09.745246+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "seq": 39,
+      "ts": "2026-06-17T17:29:20.848466+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "191",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "value": "191",
+      "seq": 40,
+      "ts": "2026-06-17T17:29:46.560694+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]",
+        "sample_value": "191"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "191",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "seq": 41,
+      "ts": "2026-06-17T17:29:46.561945+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "191",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "value": "191",
+      "seq": 42,
+      "ts": "2026-06-17T17:29:46.911224+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]",
+        "sample_value": "191"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "seq": 43,
+      "ts": "2026-06-17T17:29:51.519857+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "7",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "7",
+      "seq": 44,
+      "ts": "2026-06-17T17:30:20.556213+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "7"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "70",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "70",
+      "seq": 45,
+      "ts": "2026-06-17T17:30:20.942092+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "70"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "706",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "706",
+      "seq": 46,
+      "ts": "2026-06-17T17:30:22.132296+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "706"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "7065",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "7065",
+      "seq": 47,
+      "ts": "2026-06-17T17:30:23.647255+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "7065"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "706500",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "706500",
+      "seq": 48,
+      "ts": "2026-06-17T17:30:24.298599+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "706500"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "70650024",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "70650024",
+      "seq": 49,
+      "ts": "2026-06-17T17:30:25.946214+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "70650024"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "7065002",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "7065002",
+      "seq": 50,
+      "ts": "2026-06-17T17:30:26.611121+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "7065002"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "70650025",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "70650025",
+      "seq": 51,
+      "ts": "2026-06-17T17:30:27.048843+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "70650025"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "7065002521",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "7065002521",
+      "seq": 52,
+      "ts": "2026-06-17T17:30:28.577611+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "7065002521"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "7065002521",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "7065002521",
+      "seq": 53,
+      "ts": "2026-06-17T17:30:38.131910+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "7065002521"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "a",
+        "id": null,
+        "name": null,
+        "className": "WhiteLinks",
+        "type": null,
+        "role": null,
+        "href": "#",
+        "value_preview": null,
+        "text_preview": "Go",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "playwright_hint": "body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "outer_html_truncated": "<a href=\"#\" onclick=\"validateAndSubmit('/cellNumberBlockRelease.do?method=getViewAll'); return false;\" class=\"WhiteLinks\"> Go&nbsp; <span class=\"whitetext\"> <input name=\"image2322\" type=\"image\" src=\"../../images/enter_arrow.jpg\" width=\"3\" height=\"8\" border=\"none\" onclick=\"return false\"> </span>&nbsp; </a>",
+        "bbox": {
+          "x": 1097,
+          "y": 289,
+          "w": 39,
+          "h": 17
+        }
+      },
+      "seq": 54,
+      "ts": "2026-06-17T17:30:38.358065+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click_in_row or click (detail link)",
+        "note": "If this opens a detail page, prefer navigating to href or click_in_row with result_link.",
+        "css_for_schema_selectors": "body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "seq": 55,
+      "ts": "2026-06-17T17:30:39.054298+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captchaInput",
+        "name": "captcha",
+        "className": "",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "1",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "#captchaInput",
+        "playwright_hint": "#captchaInput",
+        "outer_html_truncated": "<input type=\"text\" name=\"captcha\" size=\"14\" value=\"\" onkeydown=\"disableEscape();\" id=\"captchaInput\">",
+        "bbox": {
+          "x": 545,
+          "y": 248,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "1",
+      "seq": 56,
+      "ts": "2026-06-17T17:30:52.669160+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captchaInput",
+        "sample_value": "1"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captchaInput",
+        "name": "captcha",
+        "className": "",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "10",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "#captchaInput",
+        "playwright_hint": "#captchaInput",
+        "outer_html_truncated": "<input type=\"text\" name=\"captcha\" size=\"14\" value=\"\" onkeydown=\"disableEscape();\" id=\"captchaInput\">",
+        "bbox": {
+          "x": 545,
+          "y": 248,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "10",
+      "seq": 57,
+      "ts": "2026-06-17T17:30:53.101931+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captchaInput",
+        "sample_value": "10"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captchaInput",
+        "name": "captcha",
+        "className": "",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "107",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "#captchaInput",
+        "playwright_hint": "#captchaInput",
+        "outer_html_truncated": "<input type=\"text\" name=\"captcha\" size=\"14\" value=\"\" onkeydown=\"disableEscape();\" id=\"captchaInput\">",
+        "bbox": {
+          "x": 545,
+          "y": 248,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "107",
+      "seq": 58,
+      "ts": "2026-06-17T17:30:53.505881+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captchaInput",
+        "sample_value": "107"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captchaInput",
+        "name": "captcha",
+        "className": "",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "107",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "#captchaInput",
+        "playwright_hint": "#captchaInput",
+        "outer_html_truncated": "<input type=\"text\" name=\"captcha\" size=\"14\" value=\"\" onkeydown=\"disableEscape();\" id=\"captchaInput\">",
+        "bbox": {
+          "x": 545,
+          "y": 248,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "107",
+      "seq": 59,
+      "ts": "2026-06-17T17:30:54.500983+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "#captchaInput",
+        "sample_value": "107"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "b",
+        "id": null,
+        "name": null,
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": null,
+        "text_preview": "Verify",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "playwright_hint": "body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "outer_html_truncated": "<b>Verify</b>",
+        "bbox": {
+          "x": 547,
+          "y": 327,
+          "w": 40,
+          "h": 17
+        }
+      },
+      "seq": 60,
+      "ts": "2026-06-17T17:30:54.725959+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll",
+      "seq": 61,
+      "ts": "2026-06-17T17:30:55.069697+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "a",
+        "id": null,
+        "name": null,
+        "className": "WhiteLinks",
+        "type": null,
+        "role": null,
+        "href": "#",
+        "value_preview": null,
+        "text_preview": "Block",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "playwright_hint": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "outer_html_truncated": "<a href=\"#\" onclick=\"blockCellNumber('/cellNumberBlockRelease.do?method=blockCellNumbers',document.getElementsByName('checkedArray')); return false;\" class=\"WhiteLinks\"> Block&nbsp; <span class=\"whitetext\"> <input name=\"image23\" type=\"image\" src=\"../../images/enter_arrow.jpg\" width=\"3\" height=\"8\" border=\"none\" onclick=\"return false\"> </span>&nbsp; </a>",
+        "bbox": {
+          "x": 1211,
+          "y": 435,
+          "w": 55,
+          "h": 17
+        }
+      },
+      "seq": 62,
+      "ts": "2026-06-17T17:31:00.937311+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click_in_row or click (detail link)",
+        "note": "If this opens a detail page, prefer navigating to href or click_in_row with result_link.",
+        "css_for_schema_selectors": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "checkbox",
+        "className": "",
+        "type": "checkbox",
+        "role": null,
+        "href": null,
+        "value_preview": "checkbox",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"checkbox\"]",
+        "playwright_hint": "input[name=\"checkbox\"]",
+        "outer_html_truncated": "<input type=\"checkbox\" name=\"checkbox\" value=\"checkbox\" onclick=\"selectOrDeselectAllCheckBox(this,'checkedArray');\">",
+        "bbox": {
+          "x": 176,
+          "y": 411,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "seq": 63,
+      "ts": "2026-06-17T17:31:04.569180+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "input[name=\"checkbox\"]"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "checkbox",
+        "className": "",
+        "type": "checkbox",
+        "role": null,
+        "href": null,
+        "value_preview": "checkbox",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"checkbox\"]",
+        "playwright_hint": "input[name=\"checkbox\"]",
+        "outer_html_truncated": "<input type=\"checkbox\" name=\"checkbox\" value=\"checkbox\" onclick=\"selectOrDeselectAllCheckBox(this,'checkedArray');\">",
+        "bbox": {
+          "x": 176,
+          "y": 411,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "value": "checkbox",
+      "seq": 64,
+      "ts": "2026-06-17T17:31:04.570068+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "input[name=\"checkbox\"]",
+        "sample_value": "checkbox"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "checkbox",
+        "className": "",
+        "type": "checkbox",
+        "role": null,
+        "href": null,
+        "value_preview": "checkbox",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"checkbox\"]",
+        "playwright_hint": "input[name=\"checkbox\"]",
+        "outer_html_truncated": "<input type=\"checkbox\" name=\"checkbox\" value=\"checkbox\" onclick=\"selectOrDeselectAllCheckBox(this,'checkedArray');\">",
+        "bbox": {
+          "x": 176,
+          "y": 411,
+          "w": 13,
+          "h": 13
+        }
+      },
+      "value": "checkbox",
+      "seq": 65,
+      "ts": "2026-06-17T17:31:04.922373+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"checkbox\"]",
+        "sample_value": "checkbox"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "a",
+        "id": null,
+        "name": null,
+        "className": "WhiteLinks",
+        "type": null,
+        "role": null,
+        "href": "#",
+        "value_preview": null,
+        "text_preview": "Block",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "playwright_hint": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "outer_html_truncated": "<a href=\"#\" onclick=\"blockCellNumber('/cellNumberBlockRelease.do?method=blockCellNumbers',document.getElementsByName('checkedArray')); return false;\" class=\"WhiteLinks\"> Block&nbsp; <span class=\"whitetext\"> <input name=\"image23\" type=\"image\" src=\"../../images/enter_arrow.jpg\" width=\"3\" height=\"8\" border=\"none\" onclick=\"return false\"> </span>&nbsp; </a>",
+        "bbox": {
+          "x": 1211,
+          "y": 489,
+          "w": 55,
+          "h": 17
+        }
+      },
+      "seq": 66,
+      "ts": "2026-06-17T17:31:06.211456+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click_in_row or click (detail link)",
+        "note": "If this opens a detail page, prefer navigating to href or click_in_row with result_link.",
+        "css_for_schema_selectors": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "seq": 67,
+      "ts": "2026-06-17T17:31:07.672673+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "BlocKReleasePage",
+      "element": {
+        "tag": "html",
+        "id": null,
+        "name": null,
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": null,
+        "text_preview": "Our cPOS support email id is cpos@vodafoneidea.com User ID: DEL3164892X1 | Circle: cPOS – Delhi Sachet Sethi : View / Update profile | Change password | Signout | Home",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > ",
+        "playwright_hint": "body > ",
+        "outer_html_truncated": "<html><head> <title>BlocKReleasePage</title> <link rel=\"stylesheet\" type=\"text/css\" href=\"/cPOSWeb/jsp/inventory../../../css/mainmenustyle.css\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"/cPOSWeb/jsp/inventory../../../css/General.css\"> <script language=\"JavaScript\" src=\"/cPOSWeb/jsp/inventory../../../js/dhtml.js\"></script> <script language=\"JavaScript\" src=\"/cPOSWeb/jsp/inventory../../../js/Inv…",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 1360,
+          "h": 106
+        }
+      },
+      "seq": 68,
+      "ts": "2026-06-17T17:31:08.268596+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "body > "
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "BlocKReleasePage",
+      "element": {
+        "tag": "td",
+        "id": null,
+        "name": null,
+        "className": "white",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": null,
+        "text_preview": "Following Cell Number(s) are Blocked: 7065002521",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)",
+        "playwright_hint": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)",
+        "outer_html_truncated": "<td height=\"49\" align=\"center\" class=\"white\" bgcolor=\"#FF0000\">Following Cell Number(s) are Blocked:<br> <br> 7065002521 <br> <br> </td>",
+        "bbox": {
+          "x": 485,
+          "y": 201,
+          "w": 400,
+          "h": 70
+        }
+      },
+      "seq": 69,
+      "ts": "2026-06-17T17:31:12.175043+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22",
+      "document_title": "BlocKReleasePage",
+      "element": {
+        "tag": "a",
+        "id": null,
+        "name": null,
+        "className": "WhiteLinks",
+        "type": null,
+        "role": null,
+        "href": "#",
+        "value_preview": null,
+        "text_preview": "Ok",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "playwright_hint": "body > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "outer_html_truncated": "<a href=\"#\" onclick=\"validateAndSubmit('/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView');\" class=\"WhiteLinks\"> Ok&nbsp;<span class=\"whitetext\"> <input name=\"image2322\" type=\"image\" src=\"../../images/enter_arrow.jpg\" width=\"3\" height=\"8\" border=\"none\" onclick=\"return false\"> </span>&nbsp;</a>",
+        "bbox": {
+          "x": 666,
+          "y": 311,
+          "w": 38,
+          "h": 17
+        }
+      },
+      "seq": 70,
+      "ts": "2026-06-17T17:31:14.633576+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click_in_row or click (detail link)",
+        "note": "If this opens a detail page, prefer navigating to href or click_in_row with result_link.",
+        "css_for_schema_selectors": "body > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22#",
+      "seq": 71,
+      "ts": "2026-06-17T17:31:14.641995+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22#"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "seq": 72,
+      "ts": "2026-06-17T17:31:14.904040+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "seq": 73,
+      "ts": "2026-06-17T17:31:16.903488+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "7065002521",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "7065002521",
+      "seq": 74,
+      "ts": "2026-06-17T17:31:18.078969+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "7065002521"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": null,
+        "name": "cellNumber",
+        "className": "bdr",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "7065002521",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "input[name=\"cellNumber\"]",
+        "playwright_hint": "input[name=\"cellNumber\"]",
+        "outer_html_truncated": "<input type=\"text\" name=\"cellNumber\" maxlength=\"10\" value=\"\" onkeydown=\"disableControl();\" onkeypress=\"allow_special(this);\" class=\"bdr\">",
+        "bbox": {
+          "x": 905,
+          "y": 155,
+          "w": 159,
+          "h": 17
+        }
+      },
+      "value": "7065002521",
+      "seq": 75,
+      "ts": "2026-06-17T17:31:21.836472+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "input[name=\"cellNumber\"]",
+        "sample_value": "7065002521"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "seq": 76,
+      "ts": "2026-06-17T17:31:22.064215+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "191",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "value": "191",
+      "seq": 77,
+      "ts": "2026-06-17T17:31:23.138946+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]",
+        "sample_value": "191"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "191",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "seq": 78,
+      "ts": "2026-06-17T17:31:23.139364+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "select",
+        "id": null,
+        "name": "numberStatus",
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": "191",
+        "text_preview": "--Select-- ALLOCATED AVAILABLE BLOCKED",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "select[name=\"numberStatus\"]",
+        "playwright_hint": "select[name=\"numberStatus\"]",
+        "outer_html_truncated": "<select name=\"numberStatus\" size=\"1\"><option value=\"\">--Select--</option> <option value=\"194\">ALLOCATED</option> <option value=\"191\">AVAILABLE</option> <option value=\"189\">BLOCKED</option></select>",
+        "bbox": {
+          "x": 287,
+          "y": 155,
+          "w": 100,
+          "h": 18
+        }
+      },
+      "value": "191",
+      "seq": 79,
+      "ts": "2026-06-17T17:31:23.491989+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "select[name=\"numberStatus\"]",
+        "sample_value": "191"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "a",
+        "id": null,
+        "name": null,
+        "className": "WhiteLinks",
+        "type": null,
+        "role": null,
+        "href": "#",
+        "value_preview": null,
+        "text_preview": "Go",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "playwright_hint": "body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)",
+        "outer_html_truncated": "<a href=\"#\" onclick=\"validateAndSubmit('/cellNumberBlockRelease.do?method=getViewAll'); return false;\" class=\"WhiteLinks\"> Go&nbsp; <span class=\"whitetext\"> <input name=\"image2322\" type=\"image\" src=\"../../images/enter_arrow.jpg\" width=\"3\" height=\"8\" border=\"none\" onclick=\"return false\"> </span>&nbsp; </a>",
+        "bbox": {
+          "x": 1097,
+          "y": 289,
+          "w": 39,
+          "h": 17
+        }
+      },
+      "seq": 80,
+      "ts": "2026-06-17T17:31:24.614794+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click_in_row or click (detail link)",
+        "note": "If this opens a detail page, prefer navigating to href or click_in_row with result_link.",
+        "css_for_schema_selectors": "body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "seq": 81,
+      "ts": "2026-06-17T17:31:24.809895+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captchaInput",
+        "name": "captcha",
+        "className": "",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "3",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "#captchaInput",
+        "playwright_hint": "#captchaInput",
+        "outer_html_truncated": "<input type=\"text\" name=\"captcha\" size=\"14\" value=\"\" onkeydown=\"disableEscape();\" id=\"captchaInput\">",
+        "bbox": {
+          "x": 545,
+          "y": 248,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "3",
+      "seq": 82,
+      "ts": "2026-06-17T17:31:29.831971+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captchaInput",
+        "sample_value": "3"
+      }
+    },
+    {
+      "kind": "input",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captchaInput",
+        "name": "captcha",
+        "className": "",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "30",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "#captchaInput",
+        "playwright_hint": "#captchaInput",
+        "outer_html_truncated": "<input type=\"text\" name=\"captcha\" size=\"14\" value=\"\" onkeydown=\"disableEscape();\" id=\"captchaInput\">",
+        "bbox": {
+          "x": 545,
+          "y": 248,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "30",
+      "seq": 83,
+      "ts": "2026-06-17T17:31:30.297771+00:00",
+      "executor_hints": {
+        "raw_kind": "input",
+        "suggested_action": "input",
+        "suggested_selector_key": "search_input",
+        "value_source": "inputs.<field_name>",
+        "css_for_schema_selectors": "#captchaInput",
+        "sample_value": "30"
+      }
+    },
+    {
+      "kind": "change",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "input",
+        "id": "captchaInput",
+        "name": "captcha",
+        "className": "",
+        "type": "text",
+        "role": null,
+        "href": null,
+        "value_preview": "30",
+        "text_preview": null,
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "#captchaInput",
+        "playwright_hint": "#captchaInput",
+        "outer_html_truncated": "<input type=\"text\" name=\"captcha\" size=\"14\" value=\"\" onkeydown=\"disableEscape();\" id=\"captchaInput\">",
+        "bbox": {
+          "x": 545,
+          "y": 248,
+          "w": 130,
+          "h": 21
+        }
+      },
+      "value": "30",
+      "seq": 84,
+      "ts": "2026-06-17T17:31:31.673980+00:00",
+      "executor_hints": {
+        "raw_kind": "change",
+        "suggested_action": "eval or click option (select)",
+        "css_for_schema_selectors": "#captchaInput",
+        "sample_value": "30"
+      }
+    },
+    {
+      "kind": "click",
+      "document_url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22",
+      "document_title": "CPOS",
+      "element": {
+        "tag": "b",
+        "id": null,
+        "name": null,
+        "className": "",
+        "type": null,
+        "role": null,
+        "href": null,
+        "value_preview": null,
+        "text_preview": "Verify",
+        "aria_label": null,
+        "placeholder": null,
+        "css_guess": "body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "playwright_hint": "body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)",
+        "outer_html_truncated": "<b>Verify</b>",
+        "bbox": {
+          "x": 547,
+          "y": 327,
+          "w": 40,
+          "h": 17
+        }
+      },
+      "seq": 85,
+      "ts": "2026-06-17T17:31:31.888751+00:00",
+      "executor_hints": {
+        "raw_kind": "click",
+        "suggested_action": "click",
+        "css_for_schema_selectors": "body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)"
+      }
+    },
+    {
+      "kind": "navigate",
+      "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll",
+      "seq": 86,
+      "ts": "2026-06-17T17:31:32.095316+00:00",
+      "executor_hints": {
+        "raw_kind": "navigate",
+        "suggested_action": "pages[].url or navigate step",
+        "url": "https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll"
+      }
+    }
+  ],
+  "summary_for_llm": "=== Manual session summary (for LLM / schema author) ===\nStart URL: https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22\n\nSuggested executor mapping (verify selectors against live HTML):\n\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22\n1. INPUT: input[name=\"username\"] value=de\n2. INPUT: input[name=\"username\"] value=del\n3. INPUT: input[name=\"username\"] value=del31\n4. INPUT: input[name=\"username\"] value=del316\n5. INPUT: input[name=\"username\"] value=del3164\n6. INPUT: input[name=\"username\"] value=del316489\n7. INPUT: input[name=\"username\"] value=del3164892\n8. INPUT: input[name=\"username\"] value=del3164892x\n9. INPUT: input[name=\"username\"] value=del3164892x1\n10. CHANGE (select/other): input[name=\"username\"] → del3164892x1\n11. CLICK: input — input[name=\"password\"]\n12. INPUT: input[name=\"password\"] value=Sa\n13. INPUT: input[name=\"password\"] value=Sachet\n14. INPUT: input[name=\"password\"] value=Sachet##\n15. INPUT: input[name=\"password\"] value=Sachet##131313\n16. CLICK: input — input[name=\"password\"]\n17. CLICK: input — input[name=\"password\"]\n18. CLICK: input — input[name=\"password\"]\n19. CHANGE (select/other): input[name=\"password\"] → Sachet##131313\n20. CLICK: b — body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)\n   text: Generate Captcha\n21. CLICK: input — #captcha-field\n22. INPUT: #captcha-field value=S\n23. INPUT: #captcha-field value=Sv\n24. INPUT: #captcha-field value=Svr\n25. INPUT: #captcha-field value=Sv\n26. INPUT: #captcha-field value=Sv5\n27. INPUT: #captcha-field value=Sv5j\n28. INPUT: #captcha-field value=Sv5jn\n29. INPUT: #captcha-field value=Sv5jnN\n30. INPUT: #captcha-field value=Sv5jnNZ\n31. INPUT: #captcha-field value=Sv5jnNZL\n32. CHANGE (select/other): #captcha-field → Sv5jnNZL\n33. CLICK: b — body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)\n   text: Validate Captcha\n34. CLICK: b — body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)\n   text: Enter >\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/common/main.jsp\n35. CLICK: a — body > tr:nth-of-type(1) > td:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(11) > ul:nth-of-type(1) > li:nth-of-type(3) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)\n   text: Number block/unblock\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/switchMod.do?prefix=/jsp/inventory&page=/cellNumberBlockRelease.do?method=getView&fromMenu=Y\n36. CLICK: select — select[name=\"numberStatus\"]\n   text: --Select-- ALLOCATED AVAILABLE BLOCKED\n37. CHANGE (select/other): select[name=\"numberStatus\"] → 191\n38. CLICK: select — select[name=\"numberStatus\"]\n   text: --Select-- ALLOCATED AVAILABLE BLOCKED\n39. INPUT: select[name=\"numberStatus\"] value=191\n40. CLICK: input — input[name=\"cellNumber\"]\n41. INPUT: input[name=\"cellNumber\"] value=7\n42. INPUT: input[name=\"cellNumber\"] value=70\n43. INPUT: input[name=\"cellNumber\"] value=706\n44. INPUT: input[name=\"cellNumber\"] value=7065\n45. INPUT: input[name=\"cellNumber\"] value=706500\n46. INPUT: input[name=\"cellNumber\"] value=70650024\n47. INPUT: input[name=\"cellNumber\"] value=7065002\n48. INPUT: input[name=\"cellNumber\"] value=70650025\n49. INPUT: input[name=\"cellNumber\"] value=7065002521\n50. CHANGE (select/other): input[name=\"cellNumber\"] → 7065002521\n51. CLICK: a — body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)\n   text: Go\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22\n52. INPUT: #captchaInput value=1\n53. INPUT: #captchaInput value=10\n54. INPUT: #captchaInput value=107\n55. CHANGE (select/other): #captchaInput → 107\n56. CLICK: b — body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)\n   text: Verify\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll\n57. CLICK: a — body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)\n   text: Block\n58. CLICK: input — input[name=\"checkbox\"]\n59. CHANGE (select/other): input[name=\"checkbox\"] → checkbox\n60. INPUT: input[name=\"checkbox\"] value=checkbox\n61. CLICK: a — body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(3) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)\n   text: Block\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22\n62. CLICK: html — body > \n   text: Our cPOS support email id is cpos@vodafoneidea.com User ID: DEL3164892X1 | Circl\n63. CLICK: td — body > form:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)\n   text: Following Cell Number(s) are Blocked: 7065002521\n64. CLICK: a — body > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > table:nth-of-type(2) > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)\n   text: Ok\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=blockCellNumbers&entityType=22#\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getView\n65. CLICK: input — input[name=\"cellNumber\"]\n66. INPUT: input[name=\"cellNumber\"] value=7065002521\n67. CHANGE (select/other): input[name=\"cellNumber\"] → 7065002521\n68. CLICK: select — select[name=\"numberStatus\"]\n   text: --Select-- ALLOCATED AVAILABLE BLOCKED\n69. CHANGE (select/other): select[name=\"numberStatus\"] → 191\n70. CLICK: select — select[name=\"numberStatus\"]\n   text: --Select-- ALLOCATED AVAILABLE BLOCKED\n71. INPUT: select[name=\"numberStatus\"] value=191\n72. CLICK: a — body > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1)\n   text: Go\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll&entityType=22\n73. INPUT: #captchaInput value=3\n74. INPUT: #captchaInput value=30\n75. CHANGE (select/other): #captchaInput → 30\n76. CLICK: b — body > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > a:nth-of-type(1) > font:nth-of-type(1) > b:nth-of-type(1)\n   text: Verify\n- Navigation → https://cpos4.vodafoneidea.com/cPOSWeb/jsp/inventory/cellNumberBlockRelease.do?method=getViewAll\n\nTip: define each css_guess under schema 'selectors' with a stable key, then reference that key in steps."
+}
